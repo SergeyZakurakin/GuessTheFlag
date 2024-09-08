@@ -43,8 +43,6 @@ struct ContentView: View {
                                 .clipShape(Capsule())
                                 .shadow(radius: 5)
                         }
-                        
-                        
                     }
                     Spacer()
                     Text("Score: \(score)")
